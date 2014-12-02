@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+		<script  type="text/javascript" src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+		<link rel= "stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+
+	<body background="background.jpg">
+
+		<h2>GEOPORTAL MIASTA SIERADZ</h2>
+		<div id="map"></div>
+		<div class="button" onclick="isInAddMarkerMode=true">
+			Dodaj marker
+		</div>
+		<div class="button" onclick="removeMarker()">
+			Usuń marker
+		</div>
+		<div class="button" onclick="isInAddAnnotationMode=true">
+			Dodaj adnotację
+		</div>
+		<div class="button" onclick="removeAnnotation()">
+			Usuń adnotację
+		</div>
+		<div class="button">
+			Dodaj WMS
+		</div>
+		<div class="button">
+			Usuń warstwy WMS
+		</div>
+		<div class="button" onclick="revertRange()">
+			Przywróc zasięg
+		</div>
+	</body>
+</html>
+
